@@ -1,5 +1,6 @@
 import React from "react";
 import "./ScrollUp.css";
+import { FaArrowUp } from "react-icons/fa";
 
 const ScrollUp = () => {
   window.addEventListener("scroll", function () {
@@ -14,7 +15,7 @@ const ScrollUp = () => {
   return (
     <div>
       <a href="#" className="scrollup">
-        <i className="uil uil-arrow-up scrollup_icon"></i>
+          <FaArrowUp className="scrollup_icon" />
       </a>
     </div>
   );
