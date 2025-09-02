@@ -11,7 +11,7 @@ const Frontend = () => {
               {/* <i class="bx bx-badge-check"></i> */}
               <div>
                   <span className="skills_group">
-            <img src="../src/assets/html1.png" />
+            <img src="/assets/html1.png" />
           </span>
                 <span className="skills_level">HTML</span>
               </div>
@@ -21,7 +21,7 @@ const Frontend = () => {
               {/* <i class="bx bx-badge-check"></i> */}
               <div>
                 <span className="skills_group">
-            <img src="../src/assets/css-3.png" />
+            <img src="/assets/css-3.png" />
           </span>
                 <span className="skills_level">Css</span>
               </div>
@@ -30,7 +30,7 @@ const Frontend = () => {
               {/* <i class="bx bx-badge-check"></i> */}
               <div>
                 <span className="skills_group">
-            <img src="../src/assets/js.png" />
+            <img src="/assets/js.png" />
           </span>
                 <span className="skills_level">Java script</span>
               </div>
@@ -40,7 +40,7 @@ const Frontend = () => {
               {/* <i class="bx bx-badge-check"></i> */}
               <div>
                 <span className="skills_group">
-            <img src="../src/assets/jQuery.png" />
+            <img src="/assets/jQuery.png" />
           </span>
                 <span className="skills_level">JQuery</span>
               </div>
@@ -55,7 +55,7 @@ const Frontend = () => {
               {/* <i class="bx bx-badge-check"></i> */}
               <div>
                  <span className="skills_group">
-            <img src="../src/assets/tailwind.png" />
+            <img src="/assets/Tailwind.png" />
           </span>
                 <span className="skills_level">Tailwind</span>
               </div>
@@ -67,7 +67,7 @@ const Frontend = () => {
               {/* <i class="bx bx-badge-check"></i> */}
               <div>
                 <span className="skills_group">
-            <img src="../src/assets/github.png" />
+            <img src="/assets/github.png" />
           </span>
                 <span className="skills_level">Git</span>
               </div>
@@ -77,7 +77,7 @@ const Frontend = () => {
               {/* <i class="bx bx-badge-check"></i> */}
               <div>
                   <span className="skills_group">
-            <img src="../src/assets/physics.png" />
+            <img src="/assets/physics.png" />
           </span>
                 <span className="skills_level">React</span>
               </div>
@@ -87,7 +87,7 @@ const Frontend = () => {
               {/* <i class="bx bx-badge-check"></i> */}
               <div>
                   <span className="skills_group">
-            <img src="../src/assets/redux.png" />
+            <img src="/assets/Redux.png" />
           </span>
                 <span className="skills_level">Redux</span>
               </div>

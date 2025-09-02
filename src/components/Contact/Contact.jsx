@@ -78,7 +78,7 @@ const Contact = () => {
               <button className="button button--flex home-btn">
                 Send Message
                 <span className="button-send">
-                  <img className="send-icon" src="../src/assets/message.png" />
+                  <img className="send-icon" src="/assets/message.png" />
                 </span>
               </button>
             </form>

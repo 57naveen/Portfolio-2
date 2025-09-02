@@ -6,7 +6,7 @@ const Info = () => {
       <div className="about_info grid">
         <div className="about_box">
              <span className="about_experience">
-            <img src="../src/assets/quality.png" />
+            <img src="/assets/quality.png" />
           </span>
 
           <h3 className="about_title">Experience</h3>
@@ -14,7 +14,7 @@ const Info = () => {
         </div>
         <div className="about_box">
             <span className="about_experience">
-            <img src="../src/assets/success.png" />
+            <img src="/assets/success.png" />
           </span>
 
           <h3 className="about_title">Completed</h3>
@@ -22,7 +22,7 @@ const Info = () => {
         </div>
         <div className="about_box">
            <span className="about_experience">
-            <img src="../src/assets/customer-service.png" />
+            <img src="/assets/customer-service.png" />
           </span>
 
           <h3 className="about_title">Support</h3>

@@ -8,7 +8,7 @@ const Data = () => {
         <h1 className="home__title">
           Naveen Kishore
           <span className="home__hand">
-            <img src="../src/assets/hand.svg" />
+            <img src="/assets/hand.svg" />
           </span>
         </h1>
 
@@ -19,7 +19,7 @@ const Data = () => {
         <a href="#contact" className="button button--flex home-btn">
           Say Hello
            <span className="button-send">
-            <img className="send-icon"  src="../src/assets/message.png" />
+            <img className="send-icon"  src="/assets/message.png" />
           </span>
         </a>
       </div>

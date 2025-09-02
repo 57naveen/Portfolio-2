@@ -13,7 +13,7 @@ const Social = () => {
           target="_blank"
         >
           <span className="home_linkedin">
-            <img src="../src/assets/linkedin2.png" />
+            <img src="/assets/linkedin2.png" />
           </span>
         </a>
         {/* <a href=" " className="home_social-icon" target="_blank">
@@ -21,7 +21,7 @@ const Social = () => {
         </a> */}
         <a href="https://github.com/57naveen" className="home_social-icon" target="_blank">
          <span className="home_git">
-            <img src="../src/assets/social.png" />
+            <img src="/assets/social.png" />
           </span>
         </a>
       </div>

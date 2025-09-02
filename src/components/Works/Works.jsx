@@ -10,7 +10,7 @@ const projects = [
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     code: "https://github.com/57naveen/devTinderWeb",
     demo: "https://dev-tinder-web-iota-gules.vercel.app/",
-    img: "../src/assets/DevTinder.png"
+    img: "/assets/DevTinder.png"
   },
    {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     tech: ["React", "Tailwind", "AI Model Integration"],
     code: "https://github.com/57naveen/Text_To_Image_Client",
     demo: "https://vision-ai-2f5ca.web.app/",
-    img: "../src/assets/Vision.png"
+    img: "/assets/Vision.png"
   },
    {
     id: 3,
@@ -30,7 +30,7 @@ const projects = [
     tech: ["React", "Tailwind", "3D Assets"],
     code: "https://github.com/57naveen/Responsive-Plants",
     demo: "https://mansionleafs.web.app/",
-    img: "../src/assets/mansion.png"
+    img: "/assets/mansion.png"
   }
 ];
 

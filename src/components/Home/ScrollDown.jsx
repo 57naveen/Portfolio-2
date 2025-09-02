@@ -8,7 +8,7 @@ const ScrollDown = () => {
           <span className="scroll-icon">
             <img
               className="scroll-img"
-              src="../src/assets/scroll.svg"
+              src="/assets/scroll.svg"
               alt="scroll-icon"
             />
           </span>
