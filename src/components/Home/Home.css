@@ -93,6 +93,19 @@
     color: white;
 }
 
+
+.home_linkedin img{
+    height: 30px;
+    width: 30px;
+}
+
+.home_git img{
+    height: 30px;
+    width: 30px;
+
+}
+
+
 @keyframes profile__animate {
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;

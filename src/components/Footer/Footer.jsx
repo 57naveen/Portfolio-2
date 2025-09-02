@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
       <footer className="footer">
         <div className="footer_container container">
-          <h1 className="footer_title">Naveen</h1>
+          {/* <h1 className="footer_title">Naveen</h1> */}
           <ul className="footer_list">
             <li>
               <a href="#about" className="footer_link">
@@ -14,32 +14,37 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#projects" className="footer_link">
+              <a href="#Projects" className="footer_link">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#" className="footer_link">
-                Testimonials
+              <a href="#services" className="footer_link">
+                Services
               </a>
             </li>
           </ul>
 
           <div className="footer_social">
-              <a href=" " className="footer_social-icon" target="_blank">
-               <i class="uil uil-github-alt"></i>
-            </a>
-            <a href=" " className="footer_social-icon" target="_blank">
-              <i class="uil uil-dribbble"></i>
-            </a>
-
+               <a
+          href="https://www.linkedin.com/in/naveenkishore-s/"
+          className="home_social-icon"
+          target="_blank"
+        >
+          <span className="home_linkedin">
+            <img src="../src/assets/linkedin2.png" />
+          </span>
+        </a>
+            <a href="https://github.com/57naveen" className="home_social-icon" target="_blank">
+         <span className="home_git">
+            <img src="../src/assets/social.png" />
+          </span>
+        </a>
             
-            <a href=" " className="footer_social-icon" target="_blank">
-              <i class="uil uil-github-alt"></i>
-            </a>
+          
           </div>
 
-            <span className="footer_copy">&#169; NaveenKishore. All rights reserved</span>
+            <span className="footer_copy">&#169; 2025. All rights reserved</span>
 
         </div>
       </footer>

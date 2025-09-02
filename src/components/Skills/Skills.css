@@ -22,7 +22,7 @@
 .skills_box {
     display: flex;
     justify-content: center;
-    column-gap: 2.5rem;
+    column-gap: 4.5rem;
 }
 
 .skills_group {
@@ -30,6 +30,19 @@
     align-items: flex-start;
     row-gap: 1rem;
 }
+
+.skills_group img{
+    width: 45px;
+    height: 45px;
+}
+
+.skill_n8n img{
+    width: 40px;
+    height: 28px;
+    display: block;
+}
+
+
 
 
 .skills_data {
@@ -54,7 +67,10 @@
 }
 
 .skills_level {
-    font-size: var (--tiny-font-size);
+    font-size: var(--tiny-font-size);
+   margin-left: 5px;
+    
+    
 }
 
 

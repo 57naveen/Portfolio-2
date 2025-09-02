@@ -12,10 +12,9 @@ const Data = () => {
           </span>
         </h1>
 
-        <h3 className="home__subtitle">Visual Designer</h3>
+        <h3 className="home__subtitle">Full Stack Developer</h3>
         <p
-          className= "home__description">Inm creative designer based in New York,
-          and I'm very passionate and dedicated to my work.
+          className= "home__description">I specialize in building scalable web applications with clean code, intuitive design, and seamless user experiences.
         </p>
         <a href="#contact" className="button button--flex home-btn">
           Say Hello

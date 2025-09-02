@@ -1,178 +1,181 @@
 import React, { useState } from "react";
-import "./Service.css"
+import "./Service.css";
 
 const Service = () => {
+  const [toggleState, setToggleState] = useState(0);
 
-    const [toggleState, setToggleState] = useState(0);
-const toggleTab = (index) => {
+  const toggleTab = (index) => {
     setToggleState(index);
-}
- 
+  };
+
   return (
     <div>
       <section className="services section" id="services">
         <h2 className="section__title">Services</h2>
-        <span className="section__subtitle">What i offer</span> 
-        <div className="services_container  container grid">
+        <span className="section__subtitle">What I Offer</span>
+
+        <div className="services_container container grid">
+          {/* Web Development */}
           <div className="services_content">
             <div>
               <i className="uil uil-web-grid services_icon"></i>
-              <h3 className="services_title">Product <br /> Designed</h3>
+              <h3 className="services_title">
+                Web <br /> Development
+              </h3>
             </div>
-            <span onClick={()=>toggleTab(1)} className="services_button">View More <i className="uil uil-arrow-right services_button-icon"></i> </span>
-            <div className="services_modal">
+            <span
+              onClick={() => toggleTab(1)}
+              className="services_button"
+            >
+              View More{" "}
+              <i className="uil uil-arrow-right services_button-icon"></i>
+            </span>
+            <div
+              className={
+                toggleState === 1
+                  ? "services_modal active-model"
+                  : "services_modal"
+              }
+            >
               <div className="services_modal-content">
-                <i onClick={()=>toggleTab(0)} className="uil uil-times services_modal-close"></i>
-                <h3 className="services_modal-title">Product Designed</h3>
+                <i
+                  onClick={() => toggleTab(0)}
+                  className="uil uil-times services_modal-close"
+                ></i>
+                <h3 className="services_modal-title">Web Development</h3>
                 <p className="services_modal-description">
-                  Service with more than 3 years of experience. Providing
-                  quality work to clients and companies.
+                  I build fast, scalable, and responsive web applications using
+                  modern frameworks and technologies, tailored to meet client
+                  needs.
                 </p>
 
                 <ul className="services_modal-services grid">
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I develop the user interface
-                    </p>
+                    <p>Responsive websites with modern UI</p>
                   </li>
-
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      Web page development
-                    </p>
+                    <p>Full-stack web application development</p>
                   </li>
-
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I create ux element interactions.
-                    </p>
+                    <p>API integration and backend services</p>
                   </li>
-
-                   <li className="services_modal-service">
+                  <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I Position your company brand.
-                    </p>
-                  </li>
-
-                   <li className="services_modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      Design and mockups of products for companies.
-                    </p>
+                    <p>Performance optimization & SEO-friendly builds</p>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
+          {/* UI/UX Design */}
           <div className="services_content">
             <div>
               <i className="uil uil-arrow services_icon"></i>
-              <h3 className="services_title">Ui/Ux <br /> Designer </h3>
+              <h3 className="services_title">
+                UI/UX <br /> Design
+              </h3>
             </div>
-             <span onClick={()=>toggleTab(1)} className="services_button">View More <i className="uil uil-arrow-right services_button-icon"></i> </span>
-            <div className="services_modal">
+            <span
+              onClick={() => toggleTab(2)}
+              className="services_button"
+            >
+              View More{" "}
+              <i className="uil uil-arrow-right services_button-icon"></i>
+            </span>
+            <div
+              className={
+                toggleState === 2
+                  ? "services_modal active-model"
+                  : "services_modal"
+              }
+            >
               <div className="services_modal-content">
-                <i onClick={()=>toggleTab(0)} className="uil uil-times services_modal-close"></i>
-                <h3 className="services_modal-title">Ui/Ux</h3>
+                <i
+                  onClick={() => toggleTab(0)}
+                  className="uil uil-times services_modal-close"
+                ></i>
+                <h3 className="services_modal-title">UI/UX Design</h3>
                 <p className="services_modal-description">
-                  Service with more than 3 years of experience. Providing
-                  quality work to clients and companies.
+                  I design user-friendly interfaces and seamless experiences that
+                  blend creativity with usability, making digital products
+                  engaging and intuitive.
                 </p>
 
                 <ul className="services_modal-services grid">
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I develop the user interface
-                    </p>
+                    <p>Wireframing and prototyping</p>
                   </li>
-
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      Web page development
-                    </p>
+                    <p>User flow & interaction design</p>
                   </li>
-
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I create ux element interactions.
-                    </p>
+                    <p>Accessibility and responsive design</p>
                   </li>
-
-                   <li className="services_modal-service">
+                  <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I Position your company brand.
-                    </p>
-                  </li>
-
-                   <li className="services_modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      Design and mockups of products for companies.
-                    </p>
+                    <p>Design systems and reusable components</p>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
 
+          {/* n8n Automation */}
           <div className="services_content">
             <div>
               <i className="uil uil-edit services_icon"></i>
-              <h3 className="services_title">Visual <br/> Designer</h3>
+              <h3 className="services_title">
+                n8n <br /> Automation
+              </h3>
             </div>
-             <span onClick={()=>toggleTab(1)} className="services_button">View More <i className="uil uil-arrow-right services_button-icon"></i> </span>
-            <div className={toggleState === 1 ? "services_modal active-model": "services_modal"}>
+            <span
+              onClick={() => toggleTab(3)}
+              className="services_button"
+            >
+              View More{" "}
+              <i className="uil uil-arrow-right services_button-icon"></i>
+            </span>
+            <div
+              className={
+                toggleState === 3
+                  ? "services_modal active-model"
+                  : "services_modal"
+              }
+            >
               <div className="services_modal-content">
-                <i onClick={()=>toggleTab(0)} className="uil uil-times services_modal-close"></i>
-                <h3 className="services_modal-title">Visual Designer</h3>
+                <i
+                  onClick={() => toggleTab(0)}
+                  className="uil uil-times services_modal-close"
+                ></i>
+                <h3 className="services_modal-title">n8n Automation</h3>
                 <p className="services_modal-description">
-                  Service with more than 3 years of experience. Providing
-                  quality work to clients and companies.
+                  I help businesses streamline workflows by automating repetitive
+                  tasks and integrating multiple apps using n8n.
                 </p>
 
                 <ul className="services_modal-services grid">
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I develop the user interface
-                    </p>
+                    <p>Custom workflow automation</p>
                   </li>
-
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      Web page development
-                    </p>
+                    <p>Third-party app integrations</p>
                   </li>
-
                   <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I create ux element interactions.
-                    </p>
+                    <p>Automated data collection & reporting</p>
                   </li>
-
-                   <li className="services_modal-service">
+                  <li className="services_modal-service">
                     <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      I Position your company brand.
-                    </p>
-                  </li>
-
-                   <li className="services_modal-service">
-                    <i className="uil uil-check-circle services__modal-icon"></i>
-                    <p className="services_moqal-info">
-                      Design and mockups of products for companies.
-                    </p>
+                    <p>Business process optimization</p>
                   </li>
                 </ul>
               </div>

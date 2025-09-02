@@ -21,7 +21,7 @@ const Qualification = () => {
             onClick={() => setToggleState(1)}
           >
             <i className="uil uil-graduation-cap qualification_icon" />
-            Education
+            Courses
           </div>
 
           <div
@@ -50,10 +50,10 @@ const Qualification = () => {
             {/* Row 1 */}
             <div className="qualification_data">
               <div className="qualification_left">
-                <h3 className="qualification_title">Web Design</h3>
-                <span className="qualification_subtitle">Spain - Institute</span>
+                <h3 className="qualification_title">Namaste React.js</h3>
+                <span className="qualification_subtitle">NamasteDev.com</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt" /> 2021 - Present
+                  <i className="uil uil-calendar-alt" /> 2025 - Present
                 </div>
               </div>
 
@@ -72,10 +72,10 @@ const Qualification = () => {
                 <span className="qualification_line" />
               </div>
               <div className="qualification_right">
-                <h3 className="qualification_title">Graphic Design</h3>
-                <span className="qualification_subtitle">Spain - Institute</span>
+                <h3 className="qualification_title">Namaste JavaScript</h3>
+                <span className="qualification_subtitle">NamasteDev.com</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt" /> 2019 - 2020
+                  <i className="uil uil-calendar-alt" /> 2025 - Present
                 </div>
               </div>
             </div>
@@ -83,10 +83,10 @@ const Qualification = () => {
             {/* Row 3 */}
             <div className="qualification_data">
               <div className="qualification_left">
-                <h3 className="qualification_title">Web Development</h3>
-                <span className="qualification_subtitle">Spain - Institute</span>
+                <h3 className="qualification_title">Namaste Node.js</h3>
+                <span className="qualification_subtitle">NamasteDev.com</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt" /> 2017 - 2019
+                  <i className="uil uil-calendar-alt" /> 2025 - Present
                 </div>
               </div>
               <div className="qualification_middle">
@@ -107,10 +107,10 @@ const Qualification = () => {
             {/* Row 1 */}
             <div className="qualification_data">
               <div className="qualification_left">
-                <h3 className="qualification_title">Frontend Developer</h3>
-                <span className="qualification_subtitle">Company - India</span>
+                <h3 className="qualification_title">FullStack Developer</h3>
+                <span className="qualification_subtitle">Esoft labs - India</span>
                 <div className="qualification_calender">
-                  <i className="uil uil-calendar-alt" /> 2022 - Present
+                  <i className="uil uil-calendar-alt" /> 2022 - 2025
                 </div>
               </div>
               <div className="qualification_middle">
@@ -121,7 +121,7 @@ const Qualification = () => {
             </div>
 
             {/* Row 2 */}
-            <div className="qualification_data">
+            {/* <div className="qualification_data">
               <div className="qualification_left" />
               <div className="qualification_middle">
                 <span className="qualification_rounder" />
@@ -133,7 +133,7 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt" /> 2021 - 2022
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
