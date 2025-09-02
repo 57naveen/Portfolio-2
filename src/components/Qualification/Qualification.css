@@ -1,0 +1,143 @@
+.qualification {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.section__title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.section__subtitle {
+  font-size: 1rem;
+  color: gray;
+}
+
+/* Tabs */
+.qualification_tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.qualification_button {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+/* 
+.qualification_button:hover {
+  background: #b6b3b3;
+  color: black;
+} */
+
+.qualification_active {
+  color: black;
+  background: #d8d8d8;
+  border-color: #f3f3f3;
+}
+
+/* Sections */
+.qualification_sections {
+  display: flex;
+  justify-content: center;
+}
+
+.qualification_content {
+  display: none;
+  width: 100%;
+  max-width: 700px;
+}
+
+.qualification_content-active {
+  display: block;
+}
+
+/* Timeline Container */
+.qualification_data {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* Left & Right */
+.qualification_left,
+.qualification_right {
+  text-align: right;
+}
+
+.qualification_right {
+  text-align: left;
+}
+
+/* Middle Line */
+.qualification_middle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qualification_rounder {
+  width: 14px;
+  height: 14px;
+  background: #7b7b7b;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.qualification_line {
+  flex: 1;
+  width: 2px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #d2d2d2,
+    #dadada 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  margin-top: 4px;
+  z-index: 1;
+}
+
+/* Titles */
+.qualification_title {
+   
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.qualification_subtitle {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.qualification_calender {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .qualification_data {
+    grid-template-columns: 1fr;
+  }
+
+  .qualification_middle {
+    display: none;
+  }
+
+  .qualification_right,
+  .qualification_left {
+    text-align: center;
+   
+     
+  }
+}
