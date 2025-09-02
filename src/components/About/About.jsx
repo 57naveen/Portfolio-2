@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 // import AboutImg from "../../assets/naveen.jpg";
-import CV from "/assets/John-Cv.pdf";
+import CV from "/assets/NaveenKishoreCV.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
           <div className="about_data">
             <Info />
             <p className="about_description">
-              “I’m a Frontend Developer specializing in creating modern,
+              “I'm a Frontend Developer specializing in creating modern,
               responsive, and user-friendly web interfaces. With years of
               experience, I focus on delivering clean design, smooth user
               experiences.
