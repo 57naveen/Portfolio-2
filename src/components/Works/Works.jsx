@@ -9,7 +9,7 @@ const projects = [
       "A social networking platform for developers to connect, collaborate, and share knowledge. Features secure JWT auth, encrypted passwords, and scalable microservices architecture.",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     code: "https://github.com/57naveen/devTinderWeb",
-    demo: "https://dev-tinder-web-iota-gules.vercel.app/",
+    demo: "http://16.170.231.228/login",
     img: "/assets/DevTinder.png"
   },
    {
